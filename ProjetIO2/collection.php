@@ -1,0 +1,12 @@
+<?php
+	/*création des collections dans la base de données*/
+	require_once('./../../mongodb/connectBase.php');
+	$db=$m->wdjeba26;
+	//$m = new MongoClient();
+	//$db = $m->selectDB('local');
+	$collection = new MongoCollection($db, 'membres');
+	//ajout des comptes administrateurs du site
+	require_once('admincreationcount.php');
+	$collectiona = new MongoCollection($db, 'articles');
+	$collectiony = new MongoCollection($db, 'commentaires');
+?>

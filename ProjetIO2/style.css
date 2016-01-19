@@ -1,0 +1,94 @@
+	body	{	background-image:url("Fond.png");
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-position:0 0;
+		background-size: cover;
+		margin:0;
+		padding:0;
+}
+h1	{	
+		background-image:url("Champ.png");
+		text-align:center;
+		color:#ff00ff;
+		width:328px;
+		height:41px;
+		margin-left:40%;
+		top:1%;
+		border:0px solid #000000;
+		text-decoration:none;
+
+
+}
+h2	{	text-align:center;
+		font-size:110%;
+		background-color:#F512C0;
+		width:20%;
+		height:10%;
+		margin-left:40%;
+		margin-right:40%;
+		
+}
+h3	{	text-align:center;
+		font-size:25px;
+		color:#E91037;
+	}
+h4	{	background-color:#FFFFFF;
+		font-size:30px;
+		color:#E91037;
+	}
+p.i	{	text-align:center;
+		margin-top:5px;
+}
+p.a	{	color:#1226E4;
+	}
+p.c	{	color:#18B421;
+	}
+p.r	{	color:#FF1421;
+		background-color:#FFFFFF;
+	}
+p.b	{	text-align:center;
+		color:#000000;
+		background-color:#FFFFFF;
+		margin-left:45%;
+		margin-right:10%;
+		width:12%;
+		height:3%;
+		
+	}
+
+p.tab{	background-color:#002474;
+		color:#FFFFFF;
+		text-align:center;
+	}
+ul	{	list-style-image:url(champ.png);
+		margin:3%;
+	}
+table.in{ 	position:absolute;
+			left:1%;
+			top:3%;
+			margin-bottom: 1%;}
+table.t {	border:2px solid blue; background:#8075B4;}
+td.t{	border:2px solid blue; background:#8075B4;}
+			
+form.rec{	position:absolute;
+			left:87%;
+			color:#C31235;
+			right:2%;
+			top:2%
+}
+
+p.rec	{background-color:#34D916;
+		}
+
+fieldset.ar	{	background-color:#FFFFFF;
+				width:60%;
+				margin:0% 2%;
+			}
+fieldset.co	{	background-color:#FFFFFF;
+				width:30%;
+				margin:0% 3%;
+			}
+fieldset.ecco	{	background-color:#FFFFFF;
+				width:20%;
+				margin:0% 1%;
+			}
